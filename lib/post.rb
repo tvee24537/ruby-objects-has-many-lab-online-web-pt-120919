@@ -12,7 +12,15 @@ class Post
     @@all
   end
 
-  def author_name
-    author.name if author
+  def author_name   #if there's no author will return nil
+    if self.author
+      self.author.name
+    else
+      nil
+    end
   end
+
+#  def author_name
+#    author.name if author
+#  end
 end
