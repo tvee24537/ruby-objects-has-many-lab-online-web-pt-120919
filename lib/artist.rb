@@ -3,7 +3,7 @@ class Artist
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name)  #life begins and is push into the @@all array for storage
     @name = name
     @@all << self
   end
