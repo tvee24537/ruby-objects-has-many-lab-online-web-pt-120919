@@ -20,7 +20,7 @@ class Post
     end
   end
 
-#  def author_name
+#  def author_name     Alternative method
 #    author.name if author
 #  end
 end
